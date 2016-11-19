@@ -1,0 +1,4 @@
+Problema pouco coeso.
+A classe cresce indefinitivamente. =(
+Se tivesse 30 tipos de funcionarios diferentes, iria ter que alterar a classe em vários pontos. =(
+Baixa capacidade de reutilizacao do codigo. =(
