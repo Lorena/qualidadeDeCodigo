@@ -10,7 +10,7 @@ public class CalculadoraDeSalario {
         this.regraDeCalculo = regraDeCalculo;
     }
 
-    public double calcula(Funcionario funcionario){
+    public double calculaAumentoDeSalarioPorRegra(Funcionario funcionario){
 
         return regraDeCalculo.calcula(funcionario);
 

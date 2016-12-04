@@ -7,7 +7,7 @@ import static com.segundo.passo.oo.coesao.funcionario.yesCoeso.Cargo.TESTER;
 
 public class CalculadoraDeSalario {
 
-    public double calcula(Funcionario funcionario){
+    public double calculaAumentoDeSalarioPorRegra(Funcionario funcionario){
 
     if(DESENVOLVEDOR.equals(funcionario.getCargo())){
         return new RegraDezOuVintePorCento().calcula(funcionario);
